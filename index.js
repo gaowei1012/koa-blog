@@ -7,7 +7,6 @@ const session = require('koa-session-minimal')
 const MysqlStore = require('koa-mysql-session')
 const staticCache = require('koa-static-cache')
 const config = require('./config/default')
-// const router = require('koa-router')
 const views = require('koa-views') 
 const app = new Koa()
 

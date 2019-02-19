@@ -1,9 +1,7 @@
-const router = require('koa-router')()
+const router = require('koa-router')();
+const controller = require('./../controller/signout');
 
-router.get('/signout', async (ctx, next) => {
-    ctx.session = null
-    console.log('退出成功')
-    ctx.body = true
-})
+// 登出
+router.get('/signout', controller.getSignout);
 
 module.exports = router;

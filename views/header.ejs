@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>koa2-blog</title>
-	<link rel="icon" href="http://www.wclimb.site/images/avatar.png">
+	<link rel="icon" href="">
 	<link rel="stylesheet" href="/index.css">
 	<script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script>
@@ -55,7 +55,7 @@
 		<div class="user_right">
 			<%  if(session.user){ %>
 				<div class="has_user">
-					<a target="__blank" href="https://github.com/gmw-zjw">GitHub</a>
+					<a target="__blank" href="https://github.com/gmw-zjw/koa-blog">GitHub</a>
 					<% if(type == 'all'){ %>
 						<a class="active" href="/posts">全部文章</a>
 					<% }else{ %>
@@ -77,7 +77,7 @@
 			<% } %>
 			<% if(!session.user){ %>
 				<div class="none_user has_user">
-					<a target="__blank" href="https://github.com/gmw-zjw">GitHub</a>
+					<a target="__blank" href="https://github.com/gmw-zjw/koa-blog">GitHub</a>
 					<% if(type == 'all'){ %>
 						<a class="active" href="/posts">全部文章</a>
 					<% }else{ %>
