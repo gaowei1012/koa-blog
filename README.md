@@ -10,8 +10,8 @@ git clone https://github.com/gmw-zjw/koa-blog.git
 
 ``` npm
 cd koa-blog && npm install
+```
 
 [supervisor](http://www.supervisord.org/) index.js
 
-```
 
