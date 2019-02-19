@@ -1,8 +1,10 @@
 # koa-blog
-koa+mysql blog
+koa+mysql blog 博客系统
 
 ### 安装
+```
 git clone https://github.com/gmw-zjw/koa-blog.git
+```
 
 ### 启动
 
